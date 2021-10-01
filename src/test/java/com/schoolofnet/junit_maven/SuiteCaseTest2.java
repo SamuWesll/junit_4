@@ -8,7 +8,7 @@ public class SuiteCaseTest2 {
 
     @Test
     public void sub() {
-        assertEquals(2 - 2, is(0));
+        assertThat(2 - 2, is(0));
     }
 
 }
